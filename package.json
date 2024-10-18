@@ -1,0 +1,9 @@
+{
+  "name": "39-tasklist",
+  "version": "1.0.0",
+  "description": "This backend allows users to manage their workload. After making an account, a user will be able to create, read, update, and delete their tasks.",
+  "main": "server.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}

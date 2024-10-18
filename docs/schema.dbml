@@ -1,0 +1,15 @@
+table User {
+  id        Int [pk, increment]
+  username  String [unique]
+  password  String
+  tasks     Task[]
+}
+
+table Task {
+  id    Int [pk, increment]
+  name  String
+  done  Boolean [default: false]
+  owner User
+}
+
+Ref: User.tasks < Task.owner
